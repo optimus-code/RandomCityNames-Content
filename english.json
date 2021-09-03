@@ -3022,6 +3022,7 @@
 				"chance": 0.01,
 				"maxLength": 6
 			}
-		]
+		],
+		"chanceToSpaceAndCapitalise": 0.22
 	}
 }
