@@ -2991,5 +2991,37 @@
 		"calc",
 		"care",
 		"edda"
-	]
+	],
+	"rules":
+	{
+		"prepend":[
+			{
+				"words": ["port"],
+				"chance": 0.04,
+				"maxLength": 6
+			},
+			{
+				"words": ["new"],
+				"chance": 0.15,
+				"maxLength": 6
+			},
+			{
+				"words": ["north","east","south","west"],
+				"chance": 0.15,
+				"maxLength": 6
+			}
+		],
+		"append":[
+			{
+				"words": ["ton"],
+				"chance": 0.16,
+				"maxLength": 8
+			},
+			{
+				"words": ["city"],
+				"chance": 0.01,
+				"maxLength": 6
+			}
+		]
+	}
 }
