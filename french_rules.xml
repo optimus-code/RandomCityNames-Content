@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rules chanceToSplit="0.42" minLengthToSplit="4">
-  <prepend chance="0.08" maxLength="10">
+  <prepend chance="0.3" maxLength="10">
     cha
 	cas
 	plou
-	w
-	k
   </prepend>
-  <append chance="0.8" maxLength="5">
+  <prepend chance="0.4" maxLength="6">
+	saint-
+	fort-de-
+  </prepend>
+  <prepend chance="0.5" maxLength="10" chanceToSplit="true">
+    le
+	la
+	les
+  </prepend>
+  <append chance="0.5" maxLength="5">
     forêt
 	ville
 	belle
@@ -21,5 +28,9 @@
 	bains
 	champs
 	tours
+	court
+	mer
+	heim
+	loire
   </append>
 </rules>
