@@ -2998,31 +2998,68 @@
 			{
 				"words": ["port"],
 				"chance": 0.04,
-				"maxLength": 6
+				"maxLength": 6,
+				"chanceToSplit": true
 			},
 			{
 				"words": ["new"],
-				"chance": 0.15,
-				"maxLength": 6
+				"chance": 0.08,
+				"maxLength": 10,
+				"chanceToSplit": true
 			},
 			{
-				"words": ["north","east","south","west"],
-				"chance": 0.15,
-				"maxLength": 6
+				"words": ["north","east","middle","south","west"],
+				"chance": 0.08,
+				"maxLength": 8,
+				"chanceToSplit": true
 			}
 		],
 		"append":[
 			{
-				"words": ["ton"],
-				"chance": 0.16,
+				"words": ["city"],
+				"chance": 0.01,
+				"maxLength": 6,
+				"chanceToSplit": true
+			},
+			{
+				"words": ["by","ham","ton","sex","ley"],
+				"chance": 0.45,
 				"maxLength": 8
 			},
 			{
-				"words": ["city"],
-				"chance": 0.01,
-				"maxLength": 6
+				"words": [
+					"clare",
+					"view",
+					"folk",
+					"karta",
+					"grad",
+					"hampton",
+					"stead",
+					"stedt",
+					"statt",
+					"dorf",
+					"wych",
+					"wick",
+					"thorpe",
+					"ceter",
+					"caster",
+					"bury", 
+					"borough",
+					"dale",
+					"town",
+					"burgh",
+					"ville",
+					"cester",
+					"chester",
+					"ford",
+					"mouth",
+					"worth"
+				],
+				"chance": 0.4,
+				"maxLength": 5
 			}
 		],
-		"chanceToSpaceAndCapitalise": 0.22
+		"chanceToSplit": 0.42,
+		"minLengthToSplit": 4
 	}
 }
