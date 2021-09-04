@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rules chanceToSplit="0.42" minLengthToSplit="4">
-  <append chance="0.4" maxLength="5">
+  <append chance="0.8" maxLength="5">
     forêt
 	ville
 	belle
