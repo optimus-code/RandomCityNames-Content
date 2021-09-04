@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rules chanceToSplit="0.42" minLengthToSplit="4">
+<rules chanceToSplit="0.62" minLengthToSplit="4">
   <prepend chance="0.04" maxLength="6" chanceToSplit="true">
     port
   </prepend>
