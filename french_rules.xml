@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rules chanceToSplit="0.42" minLengthToSplit="4">
+  <prepend chance="0.08" maxLength="10">
+    cha
+	cas
+	plou
+	w
+	k
+  </prepend>
   <append chance="0.8" maxLength="5">
     forêt
 	ville
