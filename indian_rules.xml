@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rules chanceToSplit="0.62" minLengthToSplit="4">
+  <prepend chance="0.08" maxLength="10" chanceToSplit="true">
+    sri
+	the
+  </prepend>
+  <prepend chance="0.08" maxLength="8" chanceToSplit="true">
+	north
+	east
+	middle
+	south
+	west
+	upper
+	lower
+	udham
+	uttara
+	uttar
+	sant
+	kanpur
+	dima
+  </prepend>
+  <append chance="0.01" maxLength="6" chanceToSplit="true">
+	city
+  </append>
+  <append chance="0.65" maxLength="8">
+    pur
+    lam
+    bai
+	gar
+	abad
+	lai
+  </append>
+  <append chance="0.4" maxLength="5" chanceToSplit="true">
+	hills
+	nagar
+	garhwal
+	singh
+	medini
+	pare
+	district
+	hapur
+	city
+	valley
+	kheri
+	nimar
+	jhar
+	sahib
+	buddh
+	ganj
+	puram
+  </append>
+</rules>
