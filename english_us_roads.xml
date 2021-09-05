@@ -11,16 +11,9 @@
 		<northWest>northwest</northWest>
 	</directions>
 	<types>
-		<roundabout namingChance="0.7">
+		<roundabout namingChance="0.2">
 			roundabout
-			island
-		</roundabout>
-		<roundabout namingChance="0.3">
-			gyratory
-			interchange
-			triangle
 			circle
-			wheel
 		</roundabout>
 		<water>
 			pond
@@ -32,66 +25,76 @@
 		</water>
 		<avenue>
 			avenue
+			boulevard
 			way
-			arcade
-			drive
-			parade
 		</avenue>
-		<street>		
-			road
-			street	
-			alley
-			approach
-			brook
-			bank
-			arch
-			brow
-			chase
-			close
-			crescent
-			croft
-			dale
+		<street>
+			street
 			drive
-			field
-			gardens
-			heights
-			hill
-			lea
-			meadow
-			mews
-			nook
-			pasture
-			park
-			place
-			plaza
-			rise
-			row
-			square
-			vale
-			view
-			walk
+			court
 			way
+			lane
+			place
+			meadows
+			common
+			hill
+			cross
+			circle
+			village
+			woods
+			vale
+			church
+			park
+			crest
+			towne
+			bluff
+			home
+			heights
+			terrace
+			ridge
+			view
+			square
+			valley
+			cove
+			spring
 			wood
-			woods			
+			estates
+			gate
+			point
+			green
+			rock
+			falls
+			pike
+			grove
+			meadow
+			bay
+			manor
+			tree
+			mews
+			garden
 		</street>
 		<road>
 			road
-			street	
-			drive
-			brook
-			bank
-			fold
+			way
 			lane
-			mount
+			hill
 			trail
-			vale			
-			way			
+			vale
+			path
+			loop
+			valley
+			run
+			point
+			purchase
+			chase
+			alley
+			quay
+			pass
+			bend
 		</road>
 		<highway>
-			M1|ROADNUMBER|
-		</highway>
-		<highway lanes="4">
-			A|ROADNUMBER|
+			highway
+			national
 		</highway>
 	</types>
 	<prepend chance="0.4" maxLength="8" chanceToSplit="true">
