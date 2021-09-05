@@ -88,7 +88,7 @@
 			way			
 		</road>
 		<highway autoName="true">
-			M1|ROADNUMBER|
+			M|ROADNUMBER|
 		</highway>
 	</types>
 	<prepend chance="0.4" maxLength="8" chanceToSplit="true">
