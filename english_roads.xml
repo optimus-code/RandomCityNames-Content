@@ -87,11 +87,8 @@
 			vale			
 			way			
 		</road>
-		<highway>
+		<highway autoName="true">
 			M1|ROADNUMBER|
-		</highway>
-		<highway lanes="4">
-			A|ROADNUMBER|
 		</highway>
 	</types>
 	<prepend chance="0.4" maxLength="8" chanceToSplit="true">
