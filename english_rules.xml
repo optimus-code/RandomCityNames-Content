@@ -16,7 +16,7 @@
   <append chance="0.01" maxLength="6" chanceToSplit="true">
 	city
   </append>
-  <append chance="0.45" maxLength="8">
+  <append chance="0.65" maxLength="8">
     by
     ham
     ton
