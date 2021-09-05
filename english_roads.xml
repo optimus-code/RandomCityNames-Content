@@ -11,6 +11,16 @@
 		<northWest>northwest</northWest>
 	</directions>
 	<types>
+		<roundabout>
+			roundabout
+			gyratory
+			interchange
+			triangle
+			circle
+			island
+			corner
+			wheel
+		</roundabout>
 		<water>
 			pond
 			creek
